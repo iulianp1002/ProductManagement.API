@@ -109,7 +109,7 @@ namespace ProductManagement.API.Controllers
         /// </summary>
         /// <param name="code">code of a store</param>
         /// <returns>result of the deleted store </returns>
-        [HttpDelete("code")]
+        [HttpDelete()]
         public async Task<ActionResult<int>> DeleteAuthor(string code)
         {
             try
